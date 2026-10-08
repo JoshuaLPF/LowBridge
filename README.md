@@ -17,6 +17,9 @@ LowBridge achieves state‑of‑the‑art results on liver (CHAOS) and cardiac s
 1. CHAOS (Liver segmentation, MRI‑CT) [ISBI 2019 CHAOS Challenge]: download according to https://chaos.grand-challenge.org/Combined_Healthy_Abdominal_Organ_Segmentation/
 2. MMWHS 2017 (Cardiac sub‑structure segmentation, MRI‑CT): download according to https://github.com/cchen-cc/SIFA#readme.
 
+## For Generation
+
+
 ## Please cite our paper if you find it useful for your research.
 ```
 @article{lyu2025bridging,
