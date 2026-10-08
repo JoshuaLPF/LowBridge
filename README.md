@@ -14,9 +14,9 @@ LowBridge achieves state‑of‑the‑art results on liver (CHAOS) and cardiac s
 
 
 ## 📂 Dataset Preparation
-We use two public benchmarks:
-CHAOS (Liver segmentation, MRI‑CT) [ISBI 2019 CHAOS Challenge]
-MMWHS 2017 (Cardiac sub‑structure segmentation, MRI‑CT)
+- We use two public benchmarks:
+1. CHAOS (Liver segmentation, MRI‑CT) [ISBI 2019 CHAOS Challenge]
+2. MMWHS 2017 (Cardiac sub‑structure segmentation, MRI‑CT)
 
 - Please cite our paper if you find it useful for your research.
 ```
