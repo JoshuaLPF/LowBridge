@@ -15,10 +15,10 @@ LowBridge achieves state‑of‑the‑art results on liver (CHAOS) and cardiac s
 
 ## 📂 Dataset Preparation
 - We use two public benchmarks:
-1. CHAOS (Liver segmentation, MRI‑CT) [ISBI 2019 CHAOS Challenge]
+1. CHAOS (Liver segmentation, MRI‑CT) [ISBI 2019 CHAOS Challenge]: download according to https://chaos.grand-challenge.org/Combined_Healthy_Abdominal_Organ_Segmentation/
 2. MMWHS 2017 (Cardiac sub‑structure segmentation, MRI‑CT): download according to https://github.com/cchen-cc/SIFA#readme.
 
-- Please cite our paper if you find it useful for your research.
+## Please cite our paper if you find it useful for your research.
 ```
 @article{lyu2025bridging,
   title={Bridging the inter-domain gap through low-level features for cross-modal medical image segmentation},
@@ -28,38 +28,5 @@ LowBridge achieves state‑of‑the‑art results on liver (CHAOS) and cardiac s
 }
 ```
 
-## Requirements
-
-List of prerequisites or required libraries for the project to run:
-
-- Pytorch 2.0.0
-- Cuda 11.8
-- Python 3.8 or higher
-- tensorboardX
-- opencv-python
-- timm==0.6.13
-- thop
-- numpy
-
-## Datasets in paper
-- Please resize the bimodal images to the same size before training.
-- UAV RGB-T 2400: [link](https://github.com/VDT-2048/UAV-RGB-T-2400);
-- UNVT821, UNVT1000, UNVT5000: [link](https://github.com/lz118/Deep-Correlation-Network).
-
-## Results
-The results of our AlignSal and other SOTA models
-### UAV RGB-T 2400:
-- AlignSal: [link](https://pan.baidu.com/s/1M2xWybKfdOV3GLhnxFQlQg?pwd=rxyj);
-- Comparison model: [link](https://pan.baidu.com/s/165OwbmbMzwb5gPvwzBSpOQ?pwd=28f5).
-### UNVT821, UNVT1000, UNVT5000
-- AlignSal: [link](https://pan.baidu.com/s/1hhboN8oskn4JPgXPgZ6kaA?pwd=8fvr);
-- Comparison model: [link](https://pan.baidu.com/s/1oHcMoWgNS_0Ep43fegFUNA?pwd=nuns).
-
-## Evaluation Metrics Toolbox
-- The Evaluation Metrics Toolbox is available here: [link](https://github.com/jiwei0921/Saliency-Evaluation-Toolbox).
-
-## Acknowledgements
-- Thanks to all the seniors, and projects (*e.g.*, [MROS](https://github.com/VDT-2048/UAV-RGB-T-2400), [ContrastAlign](https://github.com/modaxiansheng/ContrastAlign/), [DCNet](https://github.com/lz118/Deep-Correlation-Network), and [SwinNet](https://github.com/liuzywen/SwinNet)).
-
 ## Contact Us
-If you have any questions, please contact us (lvpengfei1995@163.com).
+If you have any questions, please contact us (lyupengfei1995@outlook.com).
