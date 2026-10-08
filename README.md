@@ -20,6 +20,8 @@ LowBridge achieves state‑of‑the‑art results on liver (CHAOS) and cardiac s
 ## For Generation
 You can find the edge maps, generative images, and original images here. [Baidu Cloud](https://pan.baidu.com/s/1nQZRFqnn9GRCjsPSRjEwbQ?pwd=56gx).
 
+## For Segmentation
+You can find the generative images and its GT used for the segmentation stage here. [Baidu Cloud](https://pan.baidu.com/s/1nQZRFqnn9GRCjsPSRjEwbQ?pwd=56gx).
 
 ## Please cite our paper if you find it useful for your research.
 ```
