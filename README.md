@@ -8,14 +8,23 @@
 3. At inference: extract edges from target images → feed edges into pretrained generator to synthesize source‑style target images → predict segmentation mask with pretrained segmentor.
 
 LowBridge achieves state‑of‑the‑art results on liver (CHAOS) and cardiac sub‑structure (MMWHS) segmentation, outperforming 10 existing SOTA UDA/DG approaches. It is **model‑agnostic**, compatible with various generative and segmentation backbones.
+
+![Framework](./fig/framework.png)
+> Figure: Overview of LowBridge pipeline (Training Phase & Testing Phase)
+
+
+## 📂 Dataset Preparation
+We use two public benchmarks:
+CHAOS (Liver segmentation, MRI‑CT) [ISBI 2019 CHAOS Challenge]
+MMWHS 2017 (Cardiac sub‑structure segmentation, MRI‑CT)
+
 - Please cite our paper if you find it useful for your research.
 ```
-@article{lyu2025efficient,
-  title={Efficient Fourier Filtering Network with Contrastive Learning for UAV-based Unaligned Bi-modal Salient Object Detection},
-  author={Lyu, Pengfei and Yeung, Pak-Hei and Yu, Xiaosheng and Cheng, Xiufei and Wu, Chengdong and Rajapakse, Jagath C},
-  journal={IEEE Transactions on Geoscience and Remote Sensing},
-  year={2025},
-  publisher={IEEE}
+@article{lyu2025bridging,
+  title={Bridging the inter-domain gap through low-level features for cross-modal medical image segmentation},
+  author={Lyu, Pengfei and Yeung, Pak-Hei and Xia, Jing and Hu, De and Yu, Xiaosheng and Chi, Jianning and Wu, Chengdong and Rajapakse, Jagath C},
+  journal={arXiv preprint arXiv:2505.11909},
+  year={2025}
 }
 ```
 
