@@ -1,6 +1,5 @@
 # LowBridge
 ## Bridging the Inter-Domain Gap through Low-Level Features for Cross-Modal Medical Image Segmentation [[arXiv]](https://arxiv.org/abs/2505.11909)
-- ![Framework](https://github.com/JoshuaLPF/LowBridge/blob/main/Figure/framework.png)
 
 **LowBridge** leverages **edge (low‑level structural features)** as domain‑invariant representation across modalities:
 1. Train a generative model to reconstruct source‑style images from edge maps extracted from source images.
@@ -9,7 +8,7 @@
 
 LowBridge achieves state‑of‑the‑art results on liver (CHAOS) and cardiac sub‑structure (MMWHS) segmentation, outperforming 10 existing SOTA UDA/DG approaches. It is **model‑agnostic**, compatible with various generative and segmentation backbones.
 
-![Framework](./fig/framework.png)
+![Framework](https://github.com/JoshuaLPF/LowBridge/blob/main/Figure/framework.png)
 > Figure: Overview of LowBridge pipeline (Training Phase & Testing Phase)
 
 
