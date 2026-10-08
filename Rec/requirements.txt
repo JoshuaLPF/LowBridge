@@ -1,7 +1,0 @@
-numpy
-opencv-python
-Pillow
-tensorboardX
-timm
-torch
-torchvision
