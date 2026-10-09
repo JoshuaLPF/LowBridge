@@ -12,17 +12,29 @@ LowBridge achieves state‑of‑the‑art results on liver (CHAOS) and cardiac s
 > Figure: Overview of LowBridge pipeline (Training Phase & Testing Phase)
 
 
-## 📂 Dataset Preparation
-- We use two public benchmarks:
-1. CHAOS (Liver segmentation, MRI‑CT) [ISBI 2019 CHAOS Challenge]: download according to https://chaos.grand-challenge.org/Combined_Healthy_Abdominal_Organ_Segmentation/
-2. MMWHS 2017 (Cardiac sub‑structure segmentation, MRI‑CT): download according to https://github.com/cchen-cc/SIFA#readme.
+## Dataset Preparation
+We evaluate our method on two public medical segmentation benchmarks:
+1. **CHAOS** (Abdominal Liver Segmentation, MRI-CT) | ISBI 2019 CHAOS Challenge
+   Download from: https://chaos.grand-challenge.org/Combined_Healthy_Abdominal_Organ_Segmentation/
+2. **MMWHS 2017** (Cardiac Sub-structure Segmentation, MRI-CT)
+   Download instructions: https://github.com/cchen-cc/SIFA#readme
 
-## For Generation
-You can find the edge maps, generative images, and original images used for the generation stage here. Baidu Cloud: [train set, ](https://pan.baidu.com/s/1KcQN7wzbShDsd9f7ahu7Yw?pwd=kr4m)[testset](https://pan.baidu.com/s/1nQZRFqnn9GRCjsPSRjEwbQ?pwd=56gx).
+## Data Resources
+### Generation Stage
+Edge maps, generated images and raw images for the generative training stage:
+- Train set: [Baidu Cloud](https://pan.baidu.com/s/1KcQN7wzbShDsd9f7ahu7Yw?pwd=kr4m)
+- Test set: [Baidu Cloud](https://pan.baidu.com/s/1nQZRFqnn9GRCjsPSRjEwbQ?pwd=56gx)
 
-## For Segmentation
-You can find the generative images and its GT used for the segmentation stage here. Baidu Cloud: [Cardiac, ](https://pan.baidu.com/s/1MqQ9GrFOdDxupZhAh7mTKw?pwd=83jh)[Liver](https://pan.baidu.com/s/1srq-fosu9p4RngqKxxhy5Q?pwd=jag5).
+### Segmentation Stage
+Synthesized images and corresponding ground-truth labels for segmentation training:
+[Baidu Cloud](https://pan.baidu.com/s/1metjgnp90a54h43XHllCeA?pwd=4d6q)
 
+## Pre-trained Checkpoints
+- Generator checkpoint (generation stage): [Baidu Cloud](https://pan.baidu.com/s/1N-q0sw9N1bETwXRvyV5cFw?pwd=v2k8)
+- Segmentor checkpoint (segmentation stage): [Baidu Cloud](https://pan.baidu.com/s/19P_JdtSvaDMjD7-aG_5FUw?pwd=yfky)
+
+## Prediction Results
+Segmentation outputs on test sets: [Baidu Cloud](https://pan.baidu.com/s/1EDIH7kWtO4Ex1HDwmtIu3A?pwd=wgpy)
 
 ## Please cite our paper if you find it useful for your research.
 ```
