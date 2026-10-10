@@ -1,0 +1,8 @@
+numpy
+opencv-python
+Pillow
+pytorch-ssim
+tensorboardX
+timm
+torch
+torchvision
