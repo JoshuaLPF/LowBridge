@@ -1,0 +1,7 @@
+dataset: prostate
+data_root: data/cardiac_processed
+n_domains: 2
+n_channels: 3
+n_classes: 5
+image_size: 224
+dropout: false

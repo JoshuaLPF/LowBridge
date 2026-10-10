@@ -1,0 +1,8 @@
+optimizer: adamw
+lr: 0.001
+epochs: 100
+iters: 200
+batch_size: 4
+num_threads: 4
+num_workers: 2
+augment: true
